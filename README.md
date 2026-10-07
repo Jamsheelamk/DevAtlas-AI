@@ -239,3 +239,5 @@ Returns live status for local Embeddings, Vector Store, Upstash Redis, and Groq 
 
 ## 📄 License
 MIT © 2026 DevAtlas AI. Documentation content is attributed to official documentation sources under their respective open licenses.
+#   D e v A t l a s - A I  
+ 
