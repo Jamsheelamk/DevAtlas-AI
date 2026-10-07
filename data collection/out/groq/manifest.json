@@ -1,0 +1,22 @@
+{
+  "framework": "groq",
+  "commit": "7a13c90",
+  "indexedAt": "2026-10-07",
+  "totalPages": 1,
+  "pages": [
+    {
+      "title": "Groq LPU Inference Engine & Model Specs",
+      "url": "https://console.groq.com/docs/overview",
+      "section": "overview",
+      "topics": [
+        "groq",
+        "lpu",
+        "llama3",
+        "streaming",
+        "latency"
+      ],
+      "file": "pages\\groq-lpu-architecture-and-models.md",
+      "chars": 1679
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "framework": "node",
+  "commit": "2d17c4b",
+  "indexedAt": "2026-10-07",
+  "totalPages": 1,
+  "pages": [
+    {
+      "title": "Node.js Streams & Async Iterators",
+      "url": "https://nodejs.org/api/stream.html",
+      "section": "api",
+      "topics": [
+        "streams",
+        "async-iterators",
+        "buffer",
+        "http"
+      ],
+      "file": "pages\\streams-and-async-iterators.md",
+      "chars": 773
+    }
+  ]
+}

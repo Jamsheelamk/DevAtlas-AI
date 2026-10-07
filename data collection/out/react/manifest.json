@@ -1,0 +1,21 @@
+{
+  "framework": "react",
+  "commit": "3f901cb",
+  "indexedAt": "2026-10-07",
+  "totalPages": 1,
+  "pages": [
+    {
+      "title": "React 19 Actions & New Hooks",
+      "url": "https://react.dev/reference/react/useActionState",
+      "section": "reference",
+      "topics": [
+        "react19",
+        "hooks",
+        "actions",
+        "state"
+      ],
+      "file": "pages\\react-19-actions-and-hooks.md",
+      "chars": 2149
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "framework": "langgraph",
+  "commit": "e4a81c9",
+  "indexedAt": "2026-10-07",
+  "totalPages": 2,
+  "pages": [
+    {
+      "title": "StateGraph & State Management",
+      "url": "https://docs.langchain.com/oss/langgraph/concepts/stategraph",
+      "section": "concepts",
+      "topics": [
+        "stategraph",
+        "state",
+        "agents",
+        "persistence"
+      ],
+      "file": "pages\\concepts-stategraph.md",
+      "chars": 2637
+    },
+    {
+      "title": "Multi-Agent Supervisor Pattern",
+      "url": "https://docs.langchain.com/oss/langgraph/workflows/supervisor",
+      "section": "workflows",
+      "topics": [
+        "multi-agent",
+        "supervisor",
+        "routing"
+      ],
+      "file": "pages\\multi-agent-supervisor.md",
+      "chars": 1271
+    }
+  ]
+}

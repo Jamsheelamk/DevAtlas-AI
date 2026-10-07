@@ -1,0 +1,21 @@
+{
+  "framework": "mdn",
+  "commit": "7e91ca0",
+  "indexedAt": "2026-10-07",
+  "totalPages": 1,
+  "pages": [
+    {
+      "title": "Server-Sent Events (SSE) Protocol",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events",
+      "section": "web-apis",
+      "topics": [
+        "sse",
+        "eventsource",
+        "streaming",
+        "http"
+      ],
+      "file": "pages\\server-sent-events.md",
+      "chars": 752
+    }
+  ]
+}

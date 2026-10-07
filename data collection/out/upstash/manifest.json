@@ -1,0 +1,21 @@
+{
+  "framework": "upstash",
+  "commit": "4c8f12a",
+  "indexedAt": "2026-10-07",
+  "totalPages": 1,
+  "pages": [
+    {
+      "title": "Semantic Caching & Rate Limiting",
+      "url": "https://upstash.com/docs/redis/overall",
+      "section": "redis",
+      "topics": [
+        "redis",
+        "caching",
+        "ratelimit",
+        "ttl"
+      ],
+      "file": "pages\\redis-caching-and-ratelimit.md",
+      "chars": 1145
+    }
+  ]
+}

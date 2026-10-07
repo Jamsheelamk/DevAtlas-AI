@@ -1,0 +1,24 @@
+{
+  "name": "devatlas-data-collection",
+  "version": "1.0.0",
+  "description": "Official documentation corpus collectors for DevAtlas AI RAG platform",
+  "type": "module",
+  "scripts": {
+    "fetch:react": "node fetch-react-docs.mjs",
+    "fetch:nextjs": "node fetch-nextjs-docs.mjs",
+    "fetch:node": "node fetch-node-docs.mjs",
+    "fetch:mdn": "node fetch-mdn-docs.mjs",
+    "fetch:langchain": "node fetch-langchain-docs.mjs",
+    "fetch:langgraph": "node fetch-landgraph-docs.mjs --only langgraph",
+    "fetch:groq": "node fetch-groq-docs.mjs",
+    "fetch:qdrant": "node fetch-qdrant-docs.mjs",
+    "fetch:upstash": "node fetch-upstash-docs.mjs",
+    "collect:all": "node collect-all.mjs",
+    "collect:quick": "node collect-all.mjs --quick"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "turndown": "^7.2.0",
+    "turndown-plugin-gfm": "^1.0.2"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "framework": "nextjs",
+  "commit": "b827df1",
+  "indexedAt": "2026-10-07",
+  "totalPages": 1,
+  "pages": [
+    {
+      "title": "Server Actions & Revalidation",
+      "url": "https://nextjs.org/docs/app/building-your-application/data-fetching/server-actions-and-mutations",
+      "section": "app-router",
+      "topics": [
+        "server-actions",
+        "caching",
+        "revalidate",
+        "app-router"
+      ],
+      "file": "pages\\server-actions-and-caching.md",
+      "chars": 874
+    }
+  ]
+}

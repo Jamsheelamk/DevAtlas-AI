@@ -1,0 +1,19 @@
+{
+  "name": "devatlas-ai",
+  "version": "1.0.0",
+  "description": "DevAtlas AI - Developer & AI Engineering Agent RAG Platform",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "install:all": "npm install && cd server && npm install && cd ../client && npm install && cd ../\"data collection\" && npm install",
+    "dev": "concurrently -n \"SERVER,CLIENT\" -c \"cyan,magenta\" \"npm run dev:server\" \"npm run dev:client\"",
+    "dev:server": "cd server && npm run dev",
+    "dev:client": "cd client && npm run dev",
+    "docs:seed": "cd server && npm run seed",
+    "docs:collect": "cd \"data collection\" && node collect-all.mjs --quick",
+    "build": "cd client && npm run build"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  }
+}

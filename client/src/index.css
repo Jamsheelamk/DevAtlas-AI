@@ -1,0 +1,133 @@
+/* client/src/index.css */
+:root {
+  --bg-gradient: linear-gradient(135deg, #09202a 0%, #0d3b4c 45%, #165366 100%);
+  --surface-glass: rgba(13, 59, 76, 0.65);
+  --surface-glass-hover: rgba(18, 77, 98, 0.75);
+  --surface-glass-border: rgba(255, 255, 255, 0.09);
+  --surface-glass-border-glow: rgba(56, 189, 248, 0.35);
+  --code-bg: #051821;
+  --cyan-glow: #38bdf8;
+  --cyan-accent: #22d3ee;
+  --text-primary: #f8fafc;
+  --text-secondary: #94a3b8;
+  --text-muted: #64748b;
+  --ring-indigo-1: #3a1d63;
+  --ring-indigo-2: #55298f;
+  --ring-indigo-3: #783cb8;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  background: #09202a;
+  background-image: var(--bg-gradient);
+  color: var(--text-primary);
+  min-height: 100vh;
+  overflow-x: hidden;
+  position: relative;
+}
+
+/* Background Orbital Circles Graphic */
+.orbital-rings-bg {
+  position: fixed;
+  top: -120px;
+  right: -120px;
+  width: 650px;
+  height: 650px;
+  pointer-events: none;
+  z-index: 0;
+  opacity: 0.65;
+  filter: blur(1px);
+}
+
+.orbital-ring {
+  position: absolute;
+  border-radius: 50%;
+  border: 1px solid rgba(120, 60, 184, 0.25);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: rotateRings 120s linear infinite;
+}
+
+.orbital-ring-1 {
+  width: 580px;
+  height: 580px;
+  border-color: rgba(85, 41, 143, 0.3);
+  box-shadow: 0 0 40px rgba(58, 29, 99, 0.4);
+}
+
+.orbital-ring-2 {
+  width: 440px;
+  height: 440px;
+  border-color: rgba(120, 60, 184, 0.4);
+}
+
+.orbital-ring-3 {
+  width: 300px;
+  height: 300px;
+  border-color: rgba(56, 189, 248, 0.25);
+  box-shadow: 0 0 30px rgba(34, 211, 238, 0.15);
+}
+
+@keyframes rotateRings {
+  from { transform: translate(-50%, -50%) rotate(0deg); }
+  to { transform: translate(-50%, -50%) rotate(360deg); }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(9, 32, 42, 0.4);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(56, 189, 248, 0.3);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(56, 189, 248, 0.5);
+}
+
+/* Glassmorphism Classes */
+.glass-panel {
+  background: var(--surface-glass);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid var(--surface-glass-border);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.glass-panel-glow {
+  background: var(--surface-glass);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid var(--surface-glass-border-glow);
+  box-shadow: 0 0 25px rgba(56, 189, 248, 0.15);
+}
+
+/* Code block typography */
+pre, code {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+code {
+  font-size: 0.9em;
+}
+
+/* Micro-animations */
+.glow-on-hover {
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.glow-on-hover:hover {
+  border-color: var(--cyan-glow);
+  box-shadow: 0 0 15px rgba(56, 189, 248, 0.35);
+  transform: translateY(-1px);
+}

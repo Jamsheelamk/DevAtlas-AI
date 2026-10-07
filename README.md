@@ -169,7 +169,7 @@ npm run install:all
 The server works out-of-the-box with zero mandatory setup. To enable live Groq LPU inference, add your free key in `server/.env` or in the UI Settings dialog:
 ```env
 # server/.env
-PORT=5000
+PORT=5001
 GROQ_API_KEY=gsk_your_free_key_here
 GROQ_PRIMARY_MODEL=llama-3.3-70b-versatile
 GROQ_FAST_MODEL=llama-3.1-8b-instant
@@ -182,12 +182,12 @@ UPSTASH_REDIS_REST_TOKEN=
 
 ### 3. Run Application
 ```bash
-# Starts both Backend (Port 5000) and Frontend (Port 5173)
+# Starts both Backend (Port 5001) and Frontend (Port 5173)
 npm run dev
 ```
 
 - **Frontend Application**: [http://localhost:5173](http://localhost:5173)
-- **Backend Health Check**: [http://localhost:5000/api/health](http://localhost:5000/api/health)
+- **Backend Health Check**: [http://localhost:5001/api/health](http://localhost:5001/api/health)
 
 ---
 

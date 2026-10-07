@@ -1,0 +1,21 @@
+{
+  "framework": "langchain",
+  "commit": "a09df13",
+  "indexedAt": "2026-10-07",
+  "totalPages": 1,
+  "pages": [
+    {
+      "title": "LCEL & Tool Calling in LangChain JS",
+      "url": "https://docs.langchain.com/oss/javascript/tools",
+      "section": "oss",
+      "topics": [
+        "lcel",
+        "tools",
+        "runnable",
+        "function-calling"
+      ],
+      "file": "pages\\lcel-and-tool-calling.md",
+      "chars": 771
+    }
+  ]
+}
